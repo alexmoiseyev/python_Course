@@ -1,0 +1,99 @@
+*{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+h1,h2,h3{
+    text-align: center;
+}
+.wrapper{
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+body{
+    background: #0a160c;
+}
+.container{
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+.header {
+    
+}  
+.header__container{
+    background-image: url('/images/piton.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.header__list {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+.header__list-item {
+    font-size: 20px;
+    transition: .3s;
+}
+.header__list-item:hover{
+    scale: 120%;
+}
+.header__title {
+    text-align: center; 
+}
+
+.main {
+   margin: 80px;
+}
+.main__container{
+    background: #000;
+}
+.main__content {
+    padding: 20px;
+}
+.main__content-title {
+    padding: 20px;
+}
+.main__list {
+    background-image: url('/images/piton2.jpg');
+    background-size: cover;
+    padding: 120px;
+}
+.main__list-item {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: decimal;
+}
+img{
+    background: white;
+}
+.footer {
+    background: #000;
+}
+.footer__title {
+    padding: 20px;
+}
+.footer__list {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__list-item {
+    padding: 10px;
+    border: 2px solid gray;
+    text-align: center;
+    flex-basis: 50%;
+}
+.map{
+    text-align: center;
+    margin: 0 auto;
+}
