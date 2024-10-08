@@ -29,7 +29,7 @@ body{
     
 }  
 .header__container{
-    background-image: url('/images/piton.jpg');
+    background-image: url('./images/piton.jpg');
     background-size: cover;
     height: 600px;
 }
@@ -63,7 +63,7 @@ body{
     padding: 20px;
 }
 .main__list {
-    background-image: url('/images/piton2.jpg');
+    background-image: url('./images/piton2.jpg');
     background-size: cover;
     padding: 120px;
 }
